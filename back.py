@@ -8,6 +8,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # Ensure required NLTK data is downloaded
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 
 app = Flask(__name__)
